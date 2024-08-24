@@ -94,7 +94,7 @@ const routes = [
     name: "Maintenance",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
+    route: "/",
     component: <Profile />,
   },
   {
@@ -110,7 +110,7 @@ const routes = [
     name: "Facility Planning",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
+    route: "/",
     component: <Profile />,
   },
   {
@@ -118,7 +118,7 @@ const routes = [
     name: "Compliance",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
+    route: "/",
     component: <Profile />,
   },
   {
@@ -126,24 +126,24 @@ const routes = [
     name: "Power and Cooling",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
+    route: "/",
     component: <Profile />,
   },
   {
     type: "collapse",
-    name: "Sign In",
+    name: "Cooling",
+    key: "profile",
+    icon: <Icon fontSize="small">person</Icon>,
+    route: "/",
+    component: <Profile />,
+  },
+  {
+    type: "collapse",
+    name: "Networking",
     key: "sign-in",
     icon: <Icon fontSize="small">login</Icon>,
     route: "/authentication/sign-in",
     component: <SignIn />,
-  },
-  {
-    type: "collapse",
-    name: "Sign Up",
-    key: "sign-up",
-    icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/authentication/sign-up",
-    component: <SignUp />,
   },
 ];
 
