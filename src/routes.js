@@ -51,7 +51,7 @@ import Icon from "@mui/material/Icon";
 const routes = [
   {
     type: "collapse",
-    name: "Dashboard",
+    name: "Design",
     key: "dashboard",
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/dashboard",
@@ -59,7 +59,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Tables",
+    name: "Sourcing",
     key: "tables",
     icon: <Icon fontSize="small">table_view</Icon>,
     route: "/tables",
@@ -67,7 +67,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Billing",
+    name: "Manufacturing",
     key: "billing",
     icon: <Icon fontSize="small">receipt_long</Icon>,
     route: "/billing",
@@ -75,7 +75,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "RTL",
+    name: "Logistics",
     key: "rtl",
     icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
     route: "/rtl",
@@ -83,7 +83,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Notifications",
+    name: "Datacenter Buildout",
     key: "notifications",
     icon: <Icon fontSize="small">notifications</Icon>,
     route: "/notifications",
@@ -91,7 +91,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Profile",
+    name: "Maintenance",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
     route: "/profile",
